@@ -1,15 +1,15 @@
 # Karasuno Fight~
 
-# View :
+### View :
 https://dimstry.vercel.app/
 
 
 Built using:
 
-- Front-end library: React
-- CSS framework: React-bootstrap
-- CSS animations library: Animate.css
-- SweetAlert 2 (belum kepake)
+- Front-end library: <a href="https://reactjs.org/" target="_blank">React</a>
+- CSS framework: <a href="https://react-bootstrap.github.io/" target="_blank">React-bootstrap</a>
+- CSS animations library: <a href="https://animate.style/" target="_blank">Animate.css</a>
+- <a href="https://animate.style/" target="_blank">SweetAlert 2</a> (Beta Test)
 
 In the /personal-portfolio, you can run:
 
