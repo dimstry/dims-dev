@@ -1,0 +1,42 @@
+.nav_img {
+  width: 50%;
+}
+.footer {
+  height: 30vh;
+  padding-top: 2rem;
+}
+.img_skill {
+  width: 10px;
+}
+
+@media (max-width:420px) {
+  .section-fo {
+    text-align: center;
+  }
+  .social-icon {
+    padding-right: 1em;
+  }
+  .nav_img {
+    margin-left: 1em;
+    width: 40px;
+  }
+}
+@media (min-width: 464px) {
+  .nav_img {
+    margin-left: 1em;
+    width: 60px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .section-fo {
+    text-align: center;
+  }
+  .social-icon {
+    padding-right: 1.2em;
+  }
+  .nav_img {
+    margin-left: 1em;
+    width: 50px;
+  }
+}
