@@ -6,6 +6,7 @@ import projImg3 from "../assets/img/project/3.png";
 import projImg4 from "../assets/img/project/4.png";
 import projImg5 from "../assets/img/project/5.jpg";
 import projImg6 from "../assets/img/project/6.png";
+import projImg7 from "../assets/img/project/7.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -51,6 +52,14 @@ export const Projects = () => {
       description: "a website of the Qur'an created with the help of Rest API",
       imgUrl: projImg6,
       projectLink: "https://dimstry.github.io/Al-Qur-anOn/",
+    },
+  ];
+  const projects3 = [
+    {
+      title: "Sidebar - SCSS",
+      description: "a sidebar that is made according to the design",
+      imgUrl: projImg7,
+      projectLink: "https://github.com/dimstry/tStsidebar/",
     },
   ];
 
