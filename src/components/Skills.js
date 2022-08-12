@@ -5,6 +5,7 @@ import arrow1 from "../assets/img/arrow1.svg";
 import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png"
 import "../style.css";
+import { useEffect} from 'react';
 
 
 export const Skills = () => {
@@ -35,7 +36,7 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br>These are some of the skills I have mastered in the field of web development</p>
+                        <p>These are some of the skills I have mastered in the field of web development</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                               <span className="text-center">                            
@@ -95,7 +96,13 @@ export const Skills = () => {
                               <span className="text-center">                            
                                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg" width="35px" height="35px" />
                               </span>
-                              <h5>LARAVEl</h5>
+                              <h5>LARAVEL</h5>
+                            </div>
+                            <div className="item">
+                              <span className="text-center">                            
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" width="35px" height="35px" />
+                              </span>
+                              <h5>SASS</h5>
                             </div>
                         </Carousel>
                     </div>

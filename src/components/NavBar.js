@@ -15,6 +15,7 @@ export const NavBar = () => {
   const [activeLink, setActiveLink] = useState('home');
   const [scrolled, setScrolled] = useState(false);
 
+
   useEffect(() => {
     const onScroll = () => {
       if (window.scrollY > 50) {
@@ -23,6 +24,7 @@ export const NavBar = () => {
         setScrolled(false);
       }
     }
+
 
     window.addEventListener("scroll", onScroll);
 

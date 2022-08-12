@@ -8,8 +8,17 @@
 .img_skill {
   width: 10px;
 }
+/* Text Gradient */
+/* .wrap {
+  background:-webkit-linear-gradient(140deg, #3e3e3e 0%, #8f0262 50%, #7041d6 75%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */
 
 @media (max-width:420px) {
+  .txt-rotate {
+    font-size: 55px;
+  }
   .section-fo {
     text-align: center;
   }

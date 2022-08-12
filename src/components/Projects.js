@@ -21,10 +21,10 @@ export const Projects = () => {
       projectLink: "https://dimstry.github.io/DimsFilms/",
     },
     {
-      title: "MY - AESPA",
-      description: "This website was created to promote girl groups",
-      imgUrl: projImg2,
-      projectLink: "https://dimstry.github.io/aespa-page/",
+      title: "Minimart App",
+      description: "A sales website, for making direct payments, created using PHP",
+      imgUrl: projImg4,
+      projectLink: "https://github.com/dimstry/minimart-app/",
     },
     {
       title: "My Idol",
@@ -36,10 +36,10 @@ export const Projects = () => {
 
   const projects2 = [
     {
-      title: "Minimart App",
-      description: "A sales website, for making direct payments, created using PHP",
-      imgUrl: projImg4,
-      projectLink: "https://github.com/dimstry/minimart-app/",
+      title: "MY - AESPA",
+      description: "This website was created to promote girl groups",
+      imgUrl: projImg2,
+      projectLink: "https://dimstry.github.io/aespa-page/",
     },
     {
       title: "Absensi Scan",
