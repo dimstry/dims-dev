@@ -9,7 +9,8 @@ export const Contact = () => {
   const [buttonText, setButtonText] = useState('Send');
   const [status, setStatus] = useState({});
 
-  useEffect(()=> {
+
+  const fetchGo = () => {
     const scriptURL = 'https://script.google.com/macros/s/AKfycbxK-c9X-v8cjbDjEeddO9R5891H7_bIRgjFUk21vuyWSYMRrjuG4EKng5QyzSMBDsKO/exec'
     const form = document.forms['dims-code']
     function myTrigger(){
@@ -38,6 +39,10 @@ export const Contact = () => {
           setStatus({ succes: false, message: 'Something went wrong, please try again later.'});
         })
     })
+  }
+
+  useEffect(()=> {
+    fetchGo();
   })
 
   return (
