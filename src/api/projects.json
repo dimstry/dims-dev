@@ -1,68 +1,74 @@
 {
-    "solo": [
-        {
-            "title": "Dims Film",
-            "description": "This website is made with React JS and React boostrap for style",
-            "imgUrl": "./project/1.png",
-            "projectLink": "https://dimstry.github.io/DimsFilms/"
-        },
-        {
-            "title": "Dims News",
-            "description": "A simple news web portal created with the help of the Public API",
-            "imgUrl": "./project/8.png",
-            "projectLink": "https://github.com/dimstry/dimsNews"
-        },
-        {
-            "title": "Minimart App",
-            "description": "A sales website, for making direct payments, created using PHP Native",
-            "imgUrl": "./project/4.png",
-            "projectLink": "https://github.com/dimstry/minimart-app/"
-        },
-        {
-            "title": "Al Qur'an Online",
-            "description": "a website of the Qur'an created with the help of Rest API",
-            "imgUrl": "./project/6.png",
-            "projectLink": "https://dimstry.github.io/Al-Qur-anOn/"
-        }
-    ],
-    "collab": [
-        {
-            "title": "Absensi Scan",
-            "description": "Source code for the development of an Attendance application with the barcode scan method",
-            "imgUrl": "./project/5.jpg",
-            "projectLink": "https://github.com/Zx-Akito/AbsensiScan"
-        },
-        {
-            "title": "GTM Books",
-            "description": "A Website Books for download and purchase, created with the help of Public APIs, and Local Api in addition",
-            "imgUrl": "./project/9.png",
-            "projectLink": "https://books-umber.vercel.app/"
-        },
-        {
-            "title": "My Idol",
-            "description": "A K-Pop Idol Web Profile created using the Next.js",
-            "imgUrl": "./project/3.png",
-            "projectLink": "https://dimstry.github.io/DimsFilms/"
-        }
-    ],
-    "fun": [
-        {
-            "title": "Sidebar - SCSS",
-            "description": "a sidebar that is made according to the design",
-            "imgUrl": "./project/7.png",
-            "projectLink": "https://github.com/dimstry/tStsidebar/"
-        },
-        {
-            "title": "MY - AESPA",
-            "description": "This website was created to promote girl groups",
-            "imgUrl": "./project/2.jpg",
-            "projectLink": "https://dimstry.github.io/aespa-page/"
-        },
-        {
-            "title": "Reveluv",
-            "description": "a website created for promotion, which has 2 modes",
-            "imgUrl": "./project/10.png",
-            "projectLink": "https://dimstry.github.io/Reveluv/"
-        }
-    ]
+  "solo": [
+    {
+      "title": "Dims Film",
+      "description": "This website is made with React JS and React boostrap for style",
+      "imgUrl": "./project/1.png",
+      "projectLink": "https://dimstry.github.io/DimsFilms/"
+    },
+    {
+      "title": "Dims News",
+      "description": "A simple news web portal created with the help of the Public API",
+      "imgUrl": "./project/8.png",
+      "projectLink": "https://github.com/dimstry/dimsNews"
+    },
+    {
+      "title": "Minimart App",
+      "description": "A sales website, for making direct payments, created using PHP Native",
+      "imgUrl": "./project/4.png",
+      "projectLink": "https://github.com/dimstry/minimart-app/"
+    },
+    {
+      "title": "Todo Apps",
+      "description": "My simple ui todo apps, created using Figma",
+      "imgUrl": "./project/11.png",
+      "projectLink": "https://www.figma.com/file/ZWYyKOhBVEM13gkr4SNFdv/todo-app?node-id=0%3A1"
+    },
+    {
+      "title": "Al Qur'an Online",
+      "description": "a website of the Qur'an created with the help of Rest API",
+      "imgUrl": "./project/6.png",
+      "projectLink": "https://dimstry.github.io/Al-Qur-anOn/"
+    }
+  ],
+  "collab": [
+    {
+      "title": "Absensi Scan",
+      "description": "Source code for the development of an Attendance application with the barcode scan method",
+      "imgUrl": "./project/5.jpg",
+      "projectLink": "https://github.com/Zx-Akito/AbsensiScan"
+    },
+    {
+      "title": "GTM Books",
+      "description": "A Website Books for download and purchase, created with the help of Public APIs, and Local Api in addition",
+      "imgUrl": "./project/9.png",
+      "projectLink": "https://books-umber.vercel.app/"
+    },
+    {
+      "title": "My Idol",
+      "description": "A K-Pop Idol Web Profile created using the Next.js",
+      "imgUrl": "./project/3.png",
+      "projectLink": "https://dimstry.github.io/DimsFilms/"
+    }
+  ],
+  "fun": [
+    {
+      "title": "Sidebar - SCSS",
+      "description": "a sidebar that is made according to the design",
+      "imgUrl": "./project/7.png",
+      "projectLink": "https://github.com/dimstry/tStsidebar/"
+    },
+    {
+      "title": "MY - AESPA",
+      "description": "This website was created to promote girl groups",
+      "imgUrl": "./project/2.jpg",
+      "projectLink": "https://dimstry.github.io/aespa-page/"
+    },
+    {
+      "title": "Reveluv",
+      "description": "a website created for promotion, which has 2 modes",
+      "imgUrl": "./project/10.png",
+      "projectLink": "https://dimstry.github.io/Reveluv/"
+    }
+  ]
 }
