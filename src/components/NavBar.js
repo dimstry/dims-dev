@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from "../assets/img/navbar.jpg";
-import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
 import { HashLink } from "react-router-hash-link";
@@ -78,12 +77,14 @@ export const NavBar = () => {
                 <a
                   href="https://www.facebook.com/profile.php?id=100032103882689"
                   target={"_blank"}
+                  rel="noreferrer"
                 >
                   <img src={navIcon2} alt="" />
                 </a>
                 <a
                   href="https://instagram.com/dimstr__?igshid=YmMyMTA2M2Y="
                   target={"_blank"}
+                  rel="noreferrer"
                 >
                   <img src={navIcon3} alt="" />
                 </a>

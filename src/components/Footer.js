@@ -20,18 +20,21 @@ export const Footer = () => {
               <a
                 href="https://www.linkedin.com/in/dimas-triana-233172241"
                 target={"_blank"}
+                rel="noreferrer"
               >
                 <img src={navIcon1} alt="Icon" />
               </a>
               <a
                 href="https://www.facebook.com/profile.php?id=100032103882689"
                 target={"_blank"}
+                rel="noreferrer"
               >
                 <img src={navIcon2} alt="Icon" />
               </a>
               <a
                 href="https://instagram.com/dimstr__?igshid=YmMyMTA2M2Y="
                 target={"_blank"}
+                rel="noreferrer"
               >
                 <img src={navIcon3} alt="Icon" />
               </a>
