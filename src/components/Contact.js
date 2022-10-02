@@ -3,18 +3,22 @@ import { Container, Row, Col } from "react-bootstrap";
 import contactImg from "../assets/img/contact-img.svg";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
-// import Swal from "sweetalert2";
+import Swal from "sweetalert2";
 
 export const Contact = () => {
   const [buttonText, setButtonText] = useState("Send");
-  const [status, setStatus] = useState({});
 
   const fetchGo = () => {
     const scriptURL =
       "https://script.google.com/macros/s/AKfycbxK-c9X-v8cjbDjEeddO9R5891H7_bIRgjFUk21vuyWSYMRrjuG4EKng5QyzSMBDsKO/exec";
     const form = document.forms["dims-code"];
     function myTrigger() {
-      setStatus({ message: "" });
+      Swal.fire({
+        title: "Success!",
+        text: "Your message has been sent!",
+        icon: "success",
+        confirmButtonText: "oke",
+      });
     }
     form.addEventListener("submit", (e) => {
       setButtonText("Sending...");
@@ -24,24 +28,16 @@ export const Contact = () => {
           console.log(response);
           setButtonText("Send");
           form.reset();
-          setStatus({
-            succes: true,
-            message: "Message sent successfully.Thanks You for your massage ",
-          });
-          setTimeout(myTrigger, 3000);
-          // Swal.fire({
-          //   position: 'center',
-          //   icon: 'success',
-          //   title: 'Your work has been saved',
-          //   showConfirmButton: false,
-          //   timer: 1500
-          // })
+          myTrigger();
         })
         .catch((error) => {
           console.error("Error!", error.message);
-          setStatus({
-            succes: false,
-            message: "Something went wrong, please try again later.",
+          setButtonText("Send");
+          Swal.fire({
+            title: "Error!",
+            text: "Your message has not been sent!",
+            icon: "error",
+            confirmButtonText: "oke",
           });
         });
     });
@@ -122,19 +118,6 @@ export const Contact = () => {
                           <span>{buttonText}</span>
                         </button>
                       </Col>
-                      {status.message && (
-                        <Col>
-                          <p
-                            className={
-                              status.success === false
-                                ? "danger text-white"
-                                : "success text-white"
-                            }
-                          >
-                            {status.message}
-                          </p>
-                        </Col>
-                      )}
                     </Row>
                   </form>
                 </div>

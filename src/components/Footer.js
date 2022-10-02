@@ -3,9 +3,24 @@ import logo from "../assets/img/zoro.png";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
+import github from "../assets/img/github.svg";
 import "../style.css";
 
 export const Footer = () => {
+  // membuat functin hit counter
+  const hitCounter = () => {
+    // membuat variabel untuk menampung data dari local storage
+    let hit = localStorage.getItem("hit");
+    // jika data dari local storage kosong maka akan diisi dengan 0
+    if (hit === null) {
+      hit = 0;
+    }
+    // jika data dari local storage tidak kosong maka akan di tambah 1
+    hit++;
+    // data dari local storage akan di update dengan data yang baru
+    localStorage.setItem("hit", hit);
+  };
+  hitCounter();
   const Tahun = new Date().getFullYear();
   console.log(Tahun);
   return (
@@ -25,6 +40,14 @@ export const Footer = () => {
                 <img src={navIcon1} alt="Icon" />
               </a>
               <a
+                href="https://github.com/dimstry"
+                target={"_blank"}
+                rel="noreferrer"
+              >
+                <img src={github} alt="Icon" />
+              </a>
+
+              <a
                 href="https://www.facebook.com/profile.php?id=100032103882689"
                 target={"_blank"}
                 rel="noreferrer"
@@ -39,7 +62,7 @@ export const Footer = () => {
                 <img src={navIcon3} alt="Icon" />
               </a>
             </div>
-            <p>Copyright {Tahun}. Dimas 💙</p>
+            <p>Copyright &copy; {Tahun}. Dimas 💙</p>
           </Col>
         </Row>
       </Container>

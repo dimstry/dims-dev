@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from "../assets/img/navbar.jpg";
-import navIcon2 from "../assets/img/nav-icon2.svg";
+import github from "../assets/img/github.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
 import { HashLink } from "react-router-hash-link";
 import "../style.css";
@@ -75,11 +75,11 @@ export const NavBar = () => {
             <span className="navbar-text">
               <div className="social-icon">
                 <a
-                  href="https://www.facebook.com/profile.php?id=100032103882689"
+                  href="https://github.com/dimstry"
                   target={"_blank"}
                   rel="noreferrer"
                 >
-                  <img src={navIcon2} alt="" />
+                  <img src={github} alt="" />
                 </a>
                 <a
                   href="https://instagram.com/dimstr__?igshid=YmMyMTA2M2Y="

@@ -23,12 +23,6 @@
       "description": "My simple ui todo apps, created using Figma",
       "imgUrl": "./project/11.png",
       "projectLink": "https://www.figma.com/file/ZWYyKOhBVEM13gkr4SNFdv/todo-app?node-id=0%3A1"
-    },
-    {
-      "title": "Al Qur'an Online",
-      "description": "a website of the Qur'an created with the help of Rest API",
-      "imgUrl": "./project/6.png",
-      "projectLink": "https://dimstry.github.io/Al-Qur-anOn/"
     }
   ],
   "collab": [
