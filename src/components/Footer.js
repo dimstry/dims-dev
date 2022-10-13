@@ -7,22 +7,7 @@ import github from "../assets/img/github.svg";
 import "../style.css";
 
 export const Footer = () => {
-  // membuat functin hit counter
-  const hitCounter = () => {
-    // membuat variabel untuk menampung data dari local storage
-    let hit = localStorage.getItem("hit");
-    // jika data dari local storage kosong maka akan diisi dengan 0
-    if (hit === null) {
-      hit = 0;
-    }
-    // jika data dari local storage tidak kosong maka akan di tambah 1
-    hit++;
-    // data dari local storage akan di update dengan data yang baru
-    localStorage.setItem("hit", hit);
-  };
-  hitCounter();
   const Tahun = new Date().getFullYear();
-  console.log(Tahun);
   return (
     <footer className="footer">
       <Container>
