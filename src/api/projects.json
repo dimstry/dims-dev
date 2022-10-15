@@ -42,7 +42,7 @@
       "title": "My Idol",
       "description": "A K-Pop Idol Web Profile created using the Next.js",
       "imgUrl": "./project/3.png",
-      "projectLink": "https://dimstry.github.io/DimsFilms/"
+      "projectLink": "https://my-idol.vercel.app/"
     }
   ],
   "fun": [
