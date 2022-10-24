@@ -80,11 +80,12 @@ export const Banner = () => {
                     </span>
                   </h1>
                   <p>
-                    I am a passionate student from Indonesia ,I'm 18 years
-                    old.My Bias Is Hwang Yeji 💙.I hope to become a Front-end
-                    Developer one day{" "}
+                    I am a passionate student from Indonesia ,I'm 18 years old.
+                    I like coding, music, anime, and kdrama <br />
+                    Blink, Midzy , My 💙
+                    {"  "}
                   </p>
-                  <button onClick={() => console.log("connect")}>
+                  <button>
                     Let’s Connect <ArrowRightCircle size={25} />
                   </button>
                 </div>

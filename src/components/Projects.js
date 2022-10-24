@@ -30,13 +30,19 @@ export const Projects = () => {
                       id="pills-tab"
                     >
                       <Nav.Item>
-                        <Nav.Link eventKey="first">Solo 💙</Nav.Link>
+                        <Nav.Link eventKey="first" className="nav_link">
+                          Solo 💙
+                        </Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="second">Team 👥</Nav.Link>
+                        <Nav.Link eventKey="second" className="nav_link">
+                          Team 👥
+                        </Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="third">Fun 👾</Nav.Link>
+                        <Nav.Link eventKey="third" className="nav_link">
+                          Fun 👾
+                        </Nav.Link>
                       </Nav.Item>
                     </Nav>
                     <Tab.Content
@@ -74,7 +80,11 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2}></img>
+      <img
+        alt="sharp"
+        className="background-image-right"
+        src={colorSharp2}
+      ></img>
     </section>
   );
 };
