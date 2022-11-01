@@ -21,25 +21,40 @@ export const Contact = () => {
       });
     }
     form.addEventListener("submit", (e) => {
-      setButtonText("Sending...");
+      // konfirmasi kirim pesan ke user
       e.preventDefault();
-      fetch(scriptURL, { method: "POST", body: new FormData(form) })
-        .then((response) => {
-          console.log(response);
+      Swal.fire({
+        title: "Are you sure?",
+        text: "Your message will be sent!",
+        icon: "warning",
+        showCancelButton: true,
+        confirmButtonColor: "#3085d6",
+        cancelButtonColor: "#d33",
+        confirmButtonText: "Yes, send it!",
+      }).then((result) => {
+        if (result.isConfirmed) {
+          setButtonText("Sending...");
+          fetch(scriptURL, { method: "POST", body: new FormData(form) })
+            .then((response) => {
+              console.log(response);
+              setButtonText("Send");
+              form.reset();
+              myTrigger();
+            })
+            .catch((error) => {
+              console.error("Error!", error.message);
+              setButtonText("Send");
+              Swal.fire({
+                title: "Error!",
+                text: "Your message has not been sent!",
+                icon: "error",
+                confirmButtonText: "oke",
+              });
+            });
+        } else {
           setButtonText("Send");
-          form.reset();
-          myTrigger();
-        })
-        .catch((error) => {
-          console.error("Error!", error.message);
-          setButtonText("Send");
-          Swal.fire({
-            title: "Error!",
-            text: "Your message has not been sent!",
-            icon: "error",
-            confirmButtonText: "oke",
-          });
-        });
+        }
+      });
     });
   };
 
