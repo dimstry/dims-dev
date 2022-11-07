@@ -48,6 +48,7 @@ export const Skills = () => {
                       src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
                       width="35px"
                       height="35px"
+                      alt="html5"
                     />
                   </span>
                   <h5>HTML</h5>
@@ -58,6 +59,7 @@ export const Skills = () => {
                       src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg"
                       width="35px"
                       height="35px"
+                      alt="css3"
                     />
                   </span>
                   <h5>CSS</h5>
@@ -68,6 +70,7 @@ export const Skills = () => {
                       src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
                       width="35px"
                       height="35px"
+                      alt="javascript"
                     />
                   </span>
                   <h5>JAVASCRIPT</h5>
@@ -78,6 +81,7 @@ export const Skills = () => {
                       src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
                       width="35px"
                       height="35px"
+                      alt="php"
                     />
                   </span>
                   <h5>PHP</h5>
@@ -88,6 +92,7 @@ export const Skills = () => {
                       src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
                       width="35px"
                       height="35px"
+                      alt="mysql"
                     />
                   </span>
                   <h5>MYSQL</h5>
@@ -98,6 +103,7 @@ export const Skills = () => {
                       src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg"
                       width="35px"
                       height="35px"
+                      alt="bootstrap"
                     />
                   </span>
                   <h5>BOOTSTRAP</h5>
@@ -108,6 +114,7 @@ export const Skills = () => {
                       src="https://raw.githubusercontent.com/prplx/svg-logos/5585531d45d294869c4eaab4d7cf2e9c167710a9/svg/materialize.svg"
                       width="35px"
                       height="35px"
+                      alt="materialize"
                     />
                   </span>
                   <h5>MATERIALIZE</h5>
@@ -118,6 +125,7 @@ export const Skills = () => {
                       src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
                       width="35px"
                       height="35px"
+                      alt="tailwindcss"
                     />
                   </span>
                   <h5>TAILWIND CSS</h5>
@@ -128,6 +136,7 @@ export const Skills = () => {
                       src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
                       width="35px"
                       height="35px"
+                      alt="react"
                     />
                   </span>
                   <h5>REACT JS</h5>
@@ -138,6 +147,7 @@ export const Skills = () => {
                       src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg"
                       width="35px"
                       height="35px"
+                      alt="laravel"
                     />
                   </span>
                   <h5>LARAVEL</h5>
@@ -148,6 +158,7 @@ export const Skills = () => {
                       src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
                       width="35px"
                       height="35px"
+                      alt="sass"
                     />
                   </span>
                   <h5>SASS</h5>
