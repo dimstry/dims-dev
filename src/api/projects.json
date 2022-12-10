@@ -59,20 +59,6 @@
       "imgUrl": "./project/7.webp",
       "projectLink": "https://github.com/dimstry/tStsidebar/",
       "alt": "Sidebar - SCSS"
-    },
-    {
-      "title": "MY - AESPA",
-      "description": "This website was created to promote girl groups",
-      "imgUrl": "./project/2.webp",
-      "projectLink": "https://dimstry.github.io/aespa-page/",
-      "alt": "MY - AESPA"
-    },
-    {
-      "title": "Reveluv",
-      "description": "a website created for promotion, which has 2 modes",
-      "imgUrl": "./project/10.webp",
-      "projectLink": "https://dimstry.github.io/Reveluv/",
-      "alt": "Reveluv"
     }
   ]
 }
