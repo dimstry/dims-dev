@@ -15,6 +15,13 @@
       "alt": "Todo Apps"
     },
     {
+      "title": "My-Library",
+      "description": "book library is built using next js and book api, You can search and buy the books you want",
+      "imgUrl": "./project/13.png",
+      "projectLink": "https://github.com/dimstry/my-library.git",
+      "alt": "My-Library"
+    },
+    {
       "title": "Dims Film",
       "description": "This website is made with React JS and React boostrap for style",
       "imgUrl": "./project/1.png",
