@@ -57,13 +57,6 @@
       "imgUrl": "./project/9.webp",
       "projectLink": "https://books-umber.vercel.app/",
       "alt": "GTM Books"
-    },
-    {
-      "title": "My Idol",
-      "description": "A K-Pop Idol Web Profile created using the Next.js",
-      "imgUrl": "./project/3.webp",
-      "projectLink": "https://my-idol.vercel.app/",
-      "alt": "My Idol"
     }
   ],
   "fun": [
