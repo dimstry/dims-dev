@@ -6,7 +6,7 @@ export default function About() {
   return (
     <section id="About" className="section">
       <div className="container px-5 lg:px-28 md:px-10 mx-auto md:mt-5">
-        <h2 className="myFont text-3xl text-center mb-20">About</h2>
+        <h2 className="text-3xl text-center mb-20">About</h2>
         {/* 2 culumn 1 image 1 desc */}
         <div className="grid grid-cols-1 md:grid-cols-2 md:gap-10">
           {/* left column */}
