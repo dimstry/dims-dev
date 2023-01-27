@@ -1,4 +1,9 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## What i use?
+
+* <a href="https://nextjs.org/" target="_blank">Next JS</a> With <a href="https://www.typescriptlang.org/" target="_blank">TypeScript</a>🔥
+* <a href="https://nextjs.org/" target="_blank">TailwindCSS</a> for styling 💙
+* <a href="https://www.npmjs.com/package/next-themes" target="_blank">Next Themes</a> 👾 
+* <a href="https://lottiefiles.com/" target="_blank">Lottie</a> for assets 🗒️
 
 ## Getting Started
 
