@@ -35,7 +35,7 @@ export default function About() {
                   <p>Years experience</p>
                 </span>
                 <span className="myFont flex flex-col items-center">
-                  <h3 className="text-5xl">12+</h3>
+                  <h3 className="text-5xl">07+</h3>
                   <p>Completed project</p>
                 </span>
               </div>
