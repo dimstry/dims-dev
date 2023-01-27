@@ -29,8 +29,8 @@ export default function Banner() {
               </span>
             </h2>
             <p className="text-gray-600 dark:text-gray-100 sm:text-xl text-lg">
-              Medium level experience in web design and having knowledge of
-              Frontend Developer and Backend Developer, producing quality work.
+              Medium level experience in Frontend Developer and having knowledge of
+              web design and Backend Developer, producing quality work.
             </p>
             <button className="bg-blue-800 text-white px-4 py-2 rounded-md mt-4 h-12 w-7/12 lg:w-5/12 flex items-center justify-center gap-2 group">
               Let&apos;s connect{" "}
