@@ -1,9 +1,9 @@
-import Lottie from "react-lottie";
+import { useLottie } from "lottie-react";
 
 import Hero from "../public/assets/Hero.json";
 
 export default function Banner() {
-  const defaultOptions = {
+  const options = {
     loop: true,
     autoplay: true,
     animationData: Hero,
@@ -11,6 +11,8 @@ export default function Banner() {
       preserveAspectRatio: "xMidYMid slice",
     },
   };
+
+  const { View } = useLottie(options);
 
   return (
     <section id="Home" className="section">
@@ -56,9 +58,7 @@ export default function Banner() {
             </div>
           </div>
           {/* right column */}
-          <div className="flex justify-center w-full mt-5 md:mt-0">
-            <Lottie options={defaultOptions} />
-          </div>
+          <div className="flex justify-center w-full mt-5 md:mt-0">{View}</div>
         </div>
       </div>
     </section>

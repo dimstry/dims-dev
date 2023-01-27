@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
-import Lottie from "react-lottie";
+import { useLottie } from "lottie-react";
 import ContactImg from "../public/assets/contact.json";
 import Swal from "sweetalert2";
 
 export default function Contact() {
-  const defaultOptions = {
+  const options = {
     loop: true,
     autoplay: true,
     animationData: ContactImg,
@@ -12,6 +12,8 @@ export default function Contact() {
       preserveAspectRatio: "xMidYMid slice",
     },
   };
+
+  const { View } = useLottie(options);
 
   const [buttonText, setButtonText] = useState("Send");
 
@@ -79,9 +81,7 @@ export default function Contact() {
         </h2>
         <div className="flex flex-col md:flex-row">
           <div className="w-full md:w-1/2 flex items-center">
-            <div className="w-full">
-              <Lottie options={defaultOptions} />
-            </div>
+            <div className="w-full">{View}</div>
           </div>
           <div className="w-full md:w-1/2">
             <h3 className="text-3xl myFont text-center text-bgBlueLight dark:text-gray-50">

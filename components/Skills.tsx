@@ -1,13 +1,14 @@
 /* eslint-disable @next/next/no-img-element */
-import Lottie from "react-lottie";
+
 import Image from "next/image";
+import { useLottie } from "lottie-react";
 
 import happyCoding from "../public/assets/happyCoding.json";
 import datas from "../pages/api/skills.json";
 import DowloadBtn from "./DowloadBtn";
 
 export default function Skills() {
-  const defaultOptions = {
+  const options = {
     loop: true,
     autoplay: true,
     animationData: happyCoding,
@@ -15,6 +16,8 @@ export default function Skills() {
       preserveAspectRatio: "xMidYMid slice",
     },
   };
+
+  const { View } = useLottie(options);
 
   return (
     <section id="Skill" className="section">
@@ -61,9 +64,7 @@ export default function Skills() {
             </div>
           </div>
           {/* right column */}
-          <div className="flex flex-col justify-center w-full">
-            <Lottie options={defaultOptions} />
-          </div>
+          <div className="flex flex-col justify-center w-full">{View}</div>
         </div>
       </div>
     </section>
