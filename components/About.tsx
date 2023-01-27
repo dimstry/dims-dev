@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-
 import Dimas from "../public/assets/img/Dimas.svg";
 
 export default function About() {
