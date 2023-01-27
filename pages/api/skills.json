@@ -1,0 +1,58 @@
+{
+  "data": {
+    "fe": [
+      {
+        "imgUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+        "alt": "javaScript",
+        "name": "JavaScript"
+      },
+      {
+        "imgUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+        "alt": "TypeScript",
+        "name": "TypeScript"
+      },
+      {
+        "imgUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+        "alt": "React JS",
+        "name": "React"
+      },
+      {
+        "imgUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg",
+        "alt": "Next JS",
+        "name": "Next JS"
+      },
+      {
+        "imgUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+        "alt": "Tailwind CSS",
+        "name": "Tailwind CSS"
+      },
+      {
+        "imgUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
+        "alt": "Redux",
+        "name": "Redux"
+      },
+      {
+        "imgUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
+        "alt": "SASS",
+        "name": "SASS"
+      }
+    ],
+    "be": [
+      {
+        "imgUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
+        "alt": "PHP",
+        "name": "PHP"
+      },
+      {
+        "imgUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg",
+        "alt": "Laravel",
+        "name": "Laravel"
+      },
+      {
+        "imgUrl": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+        "alt": "MySQL",
+        "name": "MySQL"
+      }
+    ]
+  }
+}
