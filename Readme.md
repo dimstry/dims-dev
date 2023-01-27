@@ -4,6 +4,7 @@
 * <a href="https://nextjs.org/" target="_blank">TailwindCSS</a> for styling 💙
 * <a href="https://www.npmjs.com/package/next-themes" target="_blank">Next Themes</a> 👾 
 * <a href="https://lottiefiles.com/" target="_blank">Lottie</a> for assets 🗒️
+* Slicing my Design <a href="https://www.figma.com/file/37Q5xLQiZ7yIGw6adI1arz/Portofolio?node-id=0%3A1&t=IgmpjwZXFrxb9wG2-1">Here</a> 🔔
 
 ## Getting Started
 
