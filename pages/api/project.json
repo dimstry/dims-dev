@@ -8,11 +8,11 @@
       "alt": "Dims Portfolio"
     },
     {
-      "title": "Todo Apps",
-      "description": "My simple ui todo apps, created using Figma",
-      "imgUrl": "../assets/project/11.webp",
-      "projectLink": "https://www.figma.com/file/ZWYyKOhBVEM13gkr4SNFdv/todo-app?node-id=0%3A1",
-      "alt": "Todo Apps"
+      "title": "Minimart App",
+      "description": "A sales website, for making direct payments, created using PHP Native",
+      "imgUrl": "../assets/project/4.webp",
+      "projectLink": "https://github.com/dimstry/minimart-app/",
+      "alt": "Minimart App"
     },
     {
       "title": "My-Library",
@@ -20,6 +20,14 @@
       "imgUrl": "../assets/project/13.webp",
       "projectLink": "https://github.com/dimstry/my-library.git",
       "alt": "My-Library"
+    },
+    {
+      "title": "Todo Apps",
+      "description": "My simple ui todo apps, created using Figma",
+      "imgUrl": "../assets/project/11.webp",
+      "projectLink": "https://www.figma.com/file/ZWYyKOhBVEM13gkr4SNFdv/todo-app?node-id=0%3A1",
+      "alt": "Todo Apps",
+      "techStack": "https://img.icons8.com/color/48/000000/figma--v1.png"
     },
     {
       "title": "Dims Film",
@@ -34,13 +42,6 @@
       "imgUrl": "../assets/project/8.webp",
       "projectLink": "https://github.com/dimstry/dimsNews",
       "alt": "Dims News"
-    },
-    {
-      "title": "Minimart App",
-      "description": "A sales website, for making direct payments, created using PHP Native",
-      "imgUrl": "../assets/project/4.webp",
-      "projectLink": "https://github.com/dimstry/minimart-app/",
-      "alt": "Minimart App"
     }
   ],
   "collab": [

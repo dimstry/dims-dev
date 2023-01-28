@@ -39,12 +39,12 @@ export default function About() {
                   <p>Completed project</p>
                 </span>
               </div>
-              <button className="btn w-8/12 mt-5">
+              <a className="btn w-8/12 mt-5" href="#Portofolio">
                 My Project
                 <div className="arrow-wrapper">
                   <div className="arrow"></div>
                 </div>
-              </button>
+              </a>
             </div>
           </div>
         </div>

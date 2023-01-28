@@ -79,7 +79,7 @@ export default function NavBar() {
             className={
               navbar && navbar
                 ? "flex flex-col gap-2 justify-start myFont w-full transition-all"
-                : "hidden md:flex md:items-center myFont text-lg md:text-base lg:text-lg gap-3 lg:gap-8 transition-all"
+                : "hidden md:flex md:items-center myFont text-xl md:text-base lg:text-lg gap-3 lg:gap-8 transition-all"
             }
           >
             <li className="nav-link text-blue-400 ">
