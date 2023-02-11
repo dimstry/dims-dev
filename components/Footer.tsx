@@ -5,8 +5,8 @@ export default function Footer() {
         <div className="border-t-2 border-gray-300 md:flex md:justify-center">
           <div className="grid grid-cols-1 md:grid-cols-2 py-10 md:py-16 gap-5 text-white">
             <div className="flex flex-col gap-1">
-              <h3 className="myFont text-xl">DIMSTR</h3>
-              <p className="myFont text-lg">Frontend Developer</p>
+              <h3 className="myFont text-2xl md:text-xl">DIMSTR</h3>
+              <p className="myFont text-xl md:text-lg">Frontend Developer</p>
             </div>
             <div className="flex items-center gap-10 transition-colors">
               <p className="myFont hover:text-cyan-500">

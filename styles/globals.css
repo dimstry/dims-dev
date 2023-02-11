@@ -292,7 +292,7 @@ section {
 
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
+  background: linear-gradient(90.21deg, #3d6dfd -5.91%, #392fbd 111.58%);
   opacity: 0.85;
   position: absolute;
   width: 100%;

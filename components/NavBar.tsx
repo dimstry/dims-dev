@@ -1,13 +1,16 @@
 /* eslint-disable @next/next/no-img-element */
-import React, { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
-import Me from "../public/assets/img/me.webp";
+import React, { useEffect, useState } from "react";
+
+import meImg from "../public/assets/img/me.webp";
 import Image from "next/image";
 
 export default function NavBar() {
   const { theme, setTheme } = useTheme();
+
   const [scrolled, setScrolled] = useState(false);
   const [navbar, setNavbar] = useState(false);
+  const thisTime = new Date().getHours();
 
   const curretTheme = theme == "light" ? "light" : "dark";
 
@@ -39,7 +42,15 @@ export default function NavBar() {
       };
       window.addEventListener("scroll", handleActiveLink);
     }
-  }, [scrolled, navbar]);
+
+    if (thisTime > 18 || thisTime < 6) {
+      setTheme("dark");
+    } else {
+      setTheme("light");
+    }
+
+    console.log(thisTime);
+  }, [scrolled, navbar, thisTime, setTheme]);
 
   return (
     <>
@@ -54,13 +65,13 @@ export default function NavBar() {
           <div className="h-20 w-full flex items-center justify-between">
             <div className="flex justify-center items-center gap-4">
               <Image
-                src={Me}
+                src={meImg}
                 alt="Dimas"
                 width={50}
                 height={50}
                 className="rounded-full shadow-sm shadow-blue-gray-400"
               />
-              <p className="text-2xl myFont">Dimas</p>
+              <p className="text-3xl md:text-2xl myFont">Dimas</p>
             </div>
             <div className="md:hidden">
               <button
