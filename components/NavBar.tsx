@@ -43,7 +43,7 @@ export default function NavBar() {
       window.addEventListener("scroll", handleActiveLink);
     }
 
-    if (thisTime > 18 || thisTime < 6) {
+    if (thisTime >= 18 || thisTime <= 6) {
       setTheme("dark");
     } else {
       setTheme("light");
