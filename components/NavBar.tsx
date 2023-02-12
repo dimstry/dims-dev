@@ -10,9 +10,16 @@ export default function NavBar() {
 
   const [scrolled, setScrolled] = useState(false);
   const [navbar, setNavbar] = useState(false);
-  const thisTime = new Date().getHours();
+  // const thisTime = new Date().getHours();
+  const thisTime = 18;
 
   const curretTheme = theme == "light" ? "light" : "dark";
+
+  if (thisTime >= 18 || thisTime <= 6) {
+    setTheme("dark");
+  } else {
+    setTheme("light");
+  }
 
   useEffect(() => {
     const onScroll = () => {
@@ -42,15 +49,7 @@ export default function NavBar() {
       };
       window.addEventListener("scroll", handleActiveLink);
     }
-
-    if (thisTime >= 18 || thisTime <= 6) {
-      setTheme("dark");
-    } else {
-      setTheme("light");
-    }
-
-    console.log(thisTime);
-  }, [scrolled, navbar, thisTime, setTheme]);
+  }, [scrolled, navbar]);
 
   return (
     <>

@@ -1,11 +1,10 @@
-import { useTheme } from "next-themes";
+import { useEffect, useState } from "react";
+
+import Loading from "../components/Loading";
 import NavBar from "../components/NavBar";
 import Banner from "../components/Banner";
 import About from "../components/About";
 import Skills from "../components/Skills";
-
-import Loading from "../components/Loading";
-import { useEffect, useState } from "react";
 import Portofolio from "../components/Portofolio";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
