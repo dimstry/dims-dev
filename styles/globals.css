@@ -94,7 +94,7 @@ section {
     rgb(255, 48, 255)
   );
   height: 130%;
-  animation: rotBGimg 3s linear infinite;
+  animation: rotBGimg 4s linear infinite;
   transition: all 0.2s linear;
 }
 
