@@ -28,7 +28,7 @@ export default function Banner() {
                 Front End Developer &<br /> UI Designer
               </span>
             </h2>
-            <p className="text-gray-600 dark:text-gray-100 sm:text-xl text-lg">
+            <p className="text-gray-600 dark:text-gray-100 text-xl md:text-lg">
               Medium level experience in Frontend Developer and having knowledge
               of web design and Backend Developer, producing quality work.
             </p>
