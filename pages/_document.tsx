@@ -1,7 +1,6 @@
 /* eslint-disable @next/next/next-script-for-ga */
 /* eslint-disable @next/next/no-title-in-document-head */
 import { Html, Head, Main, NextScript } from "next/document";
-
 export default function Document() {
   return (
     <Html lang="en">
@@ -15,7 +14,7 @@ export default function Document() {
         />
         <meta
           name="keywords"
-          content="Dimas Triana, Dimas, Triana,dimstry, dimas, triana, dimas triana Front End Developer"
+          content="Dimas Triana, Dimas, Triana,dimstry, dimas, triana, dimas triana,Front-End Developer,frontend, Front-End"
         />
         <meta name="author" content="Dimas Triana" />
         <meta name="robots" content="index, follow" />
@@ -38,7 +37,6 @@ export default function Document() {
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-
               gtag('config', 'G-10BMJ9GXM3');
             `,
           }}
