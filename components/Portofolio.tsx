@@ -73,7 +73,7 @@ export default function Portofolio() {
                 value="Design 🌼"
                 className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"
               >
-                {datas.Design.map((data, i) => (
+                {datas.design.map((data, i) => (
                   <ProjectCard key={i} data={data} />
                 ))}
               </TabPanel>
