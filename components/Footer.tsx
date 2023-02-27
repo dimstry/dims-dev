@@ -2,9 +2,9 @@ export default function Footer() {
   return (
     <footer className="bg-blue-900 dark:bg-bgBlue">
       <div className="container mx-auto px-6">
-        <div className="border-t-2 border-gray-300 md:flex md:justify-center">
+        <div className="border-t-2 border-gray-300 flex justify-center">
           <div className="grid grid-cols-1 md:grid-cols-2 py-10 md:py-16 gap-5 text-white">
-            <div className="flex flex-col gap-1">
+            <div className="flex flex-col md:col-span-1 gap-1">
               <h3 className="myFont text-2xl md:text-xl">DIMSTR</h3>
               <p className="myFont text-xl md:text-lg">Frontend Developer</p>
             </div>
@@ -40,7 +40,6 @@ export default function Footer() {
                 </a>
               </p>
             </div>
-
             <div className="flex flex-col text-center md:col-span-2 md:mt-3">
               <p className="myFont">
                 © 2023 Dimas Triana. All rights reserved.

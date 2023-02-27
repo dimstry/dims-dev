@@ -16,6 +16,10 @@ export default function Portofolio() {
       value: "Solo 💙",
     },
     {
+      label: "Design 🌼",
+      value: "Design 🌼",
+    },
+    {
       label: "Collab 👥",
       value: "Collab 👥",
     },
@@ -57,12 +61,19 @@ export default function Portofolio() {
             defaultValue={data[0].value}
           >
             <div className="w-full md:px-10 mx-auto">
-              {/* gak di map */}
               <TabPanel
                 value="Solo 💙"
                 className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"
               >
                 {datas.solo.map((data, i) => (
+                  <ProjectCard key={i} data={data} />
+                ))}
+              </TabPanel>
+              <TabPanel
+                value="Design 🌼"
+                className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"
+              >
+                {datas.Design.map((data, i) => (
                   <ProjectCard key={i} data={data} />
                 ))}
               </TabPanel>

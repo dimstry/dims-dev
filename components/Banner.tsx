@@ -1,7 +1,6 @@
 import { useLottie } from "lottie-react";
 
 import Hero from "../public/assets/Hero.json";
-
 export default function Banner() {
   const options = {
     loop: true,
@@ -11,15 +10,11 @@ export default function Banner() {
       preserveAspectRatio: "xMidYMid slice",
     },
   };
-
   const { View } = useLottie(options);
-
   return (
     <section id="Home" className="section">
       <div className="container px-5 lg:px-14 xl:px-28 mx-auto mt-44 md:mt-28">
-        {/* dua culumn  */}
         <div className="grid grid-cols-1 md:grid-cols-2 md:gap-10 ">
-          {/* left column */}
           <div className="flex flex-col justify-center gap-4">
             <p className="myFont text-xl">Welcome to my portofolio</p>
             <h2 className="text-2xl md:text-3xl lg:text-5xl font-bold dark:text-white text-blue-700 flex flex-col">
@@ -60,7 +55,6 @@ export default function Banner() {
               </a>
             </div>
           </div>
-          {/* right column */}
           <div className="flex justify-center w-full mt-5 md:mt-0">{View}</div>
         </div>
       </div>
