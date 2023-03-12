@@ -8,13 +8,14 @@ export default function Document() {
         <meta name="theme-color" content="#000000" />
         <title>Dimas Triana</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="title" content="Dimas Triana" />
         <meta
           name="description"
-          content="Hi, I'm Dimas Triana. I'm a Front End Developer & UI Designer."
+          content="Dimas Triana is a Frontend Developer and Web Designer with expertise in creating visually appealing and user-friendly websites. Get the best services from Dimas Triana for your business needs."
         />
         <meta
           name="keywords"
-          content="Dimas Triana, Dimas, Triana,dimstry, dimas, triana, dimas triana,Front-End Developer,frontend, Front-End"
+          content="Dimas Triana,Frontend, Web Design, UI Design, Web Developer, Frontend Developer, React, Nextjs, Tailwindcss, Figma, Adobe XD, Adobe Photoshop, Adobe Illustrator, Flutter, Dart, Dartlang, Dart Programming, Dart Language, Dart Programming Language, Dart Programming Language Tutorial, Dart Programming Language Tutorial For Beginners, Dart Programming Language Tutorial For Beginners Pdf, Dart Programming Language Tutorial For Beginners Pdf,"
         />
         <meta name="author" content="Dimas Triana" />
         <meta name="robots" content="index, follow" />

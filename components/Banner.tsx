@@ -17,12 +17,12 @@ export default function Banner() {
         <div className="grid grid-cols-1 md:grid-cols-2 md:gap-10 ">
           <div className="flex flex-col justify-center gap-4">
             <p className="myFont text-xl">Welcome to my portofolio</p>
-            <h2 className="text-2xl md:text-3xl lg:text-5xl font-bold dark:text-white text-blue-700 flex flex-col">
+            <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold dark:text-white text-blue-700 flex flex-col">
               Hi, I&apos;m Dimas Triana
               <span className="myBlue dark:text-blue-600">
                 Front End Developer &<br /> UI Designer
               </span>
-            </h2>
+            </h1>
             <p className="text-gray-600 dark:text-gray-100 text-xl md:text-lg">
               Medium level experience in Frontend Developer and having knowledge
               of web design and Backend Developer, producing quality work.

@@ -24,18 +24,18 @@ export default function About() {
           <div className="flex flex-col justify-center">
             <div className="sm:w-9/12 flex flex-col gap-5 w-full items-center sm:items-start">
               <p className="myFont text-lg mb-3">#Hi 💙</p>
-              <p className="text-center sm:text-left">
+              <h3 className="text-center sm:text-left">
                 I&apos;m a junior Front-end developer, have experience in Web
                 Developer, Ui Design, and have a little knowledge in mobile
                 developer using Flutter
-              </p>
+              </h3>
               <div className="flex mt-6 gap-10">
                 <span className="myFont flex flex-col items-center">
-                  <h3 className="text-5xl">01+</h3>
+                  <h4 className="text-5xl">01+</h4>
                   <p>Years experience</p>
                 </span>
                 <span className="myFont flex flex-col items-center">
-                  <h3 className="text-5xl">07+</h3>
+                  <h4 className="text-5xl">07+</h4>
                   <p>Completed project</p>
                 </span>
               </div>
