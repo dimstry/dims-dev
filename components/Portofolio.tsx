@@ -23,10 +23,6 @@ export default function Portofolio() {
       label: "Collab 👥",
       value: "Collab 👥",
     },
-    {
-      label: "Fun 🎉",
-      value: "Fun 🎉",
-    },
   ];
 
   return (
@@ -82,14 +78,6 @@ export default function Portofolio() {
                 className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-4"
               >
                 {datas.collab.map((data, i) => (
-                  <ProjectCard key={i} data={data} />
-                ))}
-              </TabPanel>
-              <TabPanel
-                value="Fun 🎉"
-                className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-4"
-              >
-                {datas.fun.map((data, i) => (
                   <ProjectCard key={i} data={data} />
                 ))}
               </TabPanel>

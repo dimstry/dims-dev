@@ -74,14 +74,5 @@
       "projectLink": "https://books-umber.vercel.app/",
       "alt": "GTM Books"
     }
-  ],
-  "fun": [
-    {
-      "title": "Sidebar - SCSS",
-      "description": "a sidebar that is made according to the design",
-      "imgUrl": "../assets/project/7.webp",
-      "projectLink": "https://github.com/dimstry/tStsidebar/",
-      "alt": "Sidebar - SCSS"
-    }
   ]
 }
