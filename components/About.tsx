@@ -25,9 +25,9 @@ export default function About() {
             <div className="sm:w-9/12 flex flex-col gap-5 w-full items-center sm:items-start">
               <p className="myFont text-lg mb-3">#Hi 💙</p>
               <h3 className="text-center sm:text-left">
-                I&apos;m a junior Front-end developer, have experience in Web
-                Developer, Ui Design, and have a little knowledge in mobile
-                developer using Flutter
+                I&apos;m a junior Front-end developer & Mobile Developer, have
+                experience in Web Developer, Ui Design, and have a little
+                knowledge in Back-end Developer.
               </h3>
               <div className="flex mt-6 gap-10">
                 <span className="myFont flex flex-col items-center">

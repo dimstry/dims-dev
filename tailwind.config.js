@@ -10,6 +10,11 @@ module.exports = withMT({
     "./node_modules/@material-tailwind/react/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    container: {
+      screens: {
+        desktop: "1330px",
+      },
+    },
     extend: {
       colors: {
         whiteTransparent: "rgba(255, 255, 255, 0.22)",

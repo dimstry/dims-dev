@@ -23,7 +23,7 @@ export default function Skills() {
     <section id="Skill" className="section">
       <div className="container px-5 lg:px-28 md:px-10 mx-auto mt-10">
         {/* 2 culumn 1 image 1 desc */}
-        <div className="grid grid-cols-1 md:grid-cols-2">
+        <div className="grid grid-cols-1 md:grid-cols-2 md:place-items-stretch">
           {/* left column */}
           <div className="flex flex-col justify-center items-center myFont text-gray-900 dark:text-white">
             <h3 className="text-2xl text-center">What I Do?</h3>

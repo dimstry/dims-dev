@@ -25,7 +25,7 @@ export default function Banner() {
             </h1>
             <p className="text-gray-600 dark:text-gray-100 text-xl md:text-lg">
               Medium level experience in Frontend Developer and having knowledge
-              of web design and Backend Developer, producing quality work.
+              of web design and Mobile Developer, producing quality work.
             </p>
             <a
               href="#Contact"
@@ -55,7 +55,9 @@ export default function Banner() {
               </a>
             </div>
           </div>
-          <div className="flex justify-center w-full mt-5 md:mt-0">{View}</div>
+          <div className="flex justify-center mt-5 md:mt-0 md:ml-auto">
+            {View}
+          </div>
         </div>
       </div>
     </section>
