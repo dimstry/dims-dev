@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useLottie } from "lottie-react";
 
 import happyCoding from "../public/assets/happyCoding.json";
-import datas from "../pages/api/skills.json";
+import datas from "../app/api/skills.json";
 import DowloadBtn from "./DowloadBtn";
 
 export default function Skills() {
