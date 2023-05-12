@@ -6,7 +6,7 @@ import {
   TabPanel,
 } from "@material-tailwind/react";
 
-import datas from "../pages/api/project.json";
+import datas from "../app/api/project.json";
 import { ProjectCard } from "./ProjectCard";
 
 export default function Portofolio() {
