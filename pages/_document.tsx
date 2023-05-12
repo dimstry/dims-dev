@@ -32,16 +32,6 @@ export default function Document() {
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-10BMJ9GXM3"
         ></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-10BMJ9GXM3');
-            `,
-          }}
-        />
       </Head>
       <body>
         <Main />
