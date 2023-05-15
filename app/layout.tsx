@@ -1,7 +1,8 @@
 import "styles/globals.css";
 import "styles/main.css";
 import "animate.css";
-import Analytics from "../utils/Analytics";
+import AnalyticsGoogle from "../utils/Analytics";
+import { Analytics } from "@vercel/analytics/react";
 
 export const metadata = {
   title: "Dimas Triana",
@@ -31,6 +32,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Analytics />
+      <AnalyticsGoogle />
       <body>{children}</body>
     </html>
   );

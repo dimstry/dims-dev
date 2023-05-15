@@ -1,6 +1,6 @@
 import Script from "next/script";
 
-export default function Analytics() {
+export default function AnalyticsGoogle() {
   return (
     <>
       <Script src="https://www.googletagmanager.com/gtag/js?id=G-10BMJ9GXM3" />
