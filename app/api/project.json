@@ -59,16 +59,16 @@
       "alt": "Dims Film"
     },
     {
-      "title": "Absensi Scan",
-      "description": "Source code for the development of an Attendance application with the barcode scan method",
-      "imgUrl": "../assets/project/5.webp",
-      "projectLink": "https://github.com/Zx-Akito/AbsensiScan",
-      "alt": "Absensi Scan"
+      "title": "Hangeulin",
+      "description": "A simple website for a restaurant, created using React JS",
+      "imgUrl": "../assets/project/18.jpg",
+      "projectLink": "https://hangeulin.vercel.app/",
+      "alt": "Hangeulin"
     },
     {
       "title": "GTM Books",
       "description": "A Website Books for download and purchase, created with the help of Public APIs, and Local Api in addition",
-      "imgUrl": "../assets/project/9.webp",
+      "imgUrl": "../assets/project/9.jpg",
       "projectLink": "https://books-umber.vercel.app/",
       "alt": "GTM Books"
     }
