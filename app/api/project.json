@@ -60,7 +60,7 @@
     },
     {
       "title": "Hangeulin",
-      "description": "A simple website for a restaurant, created using React JS",
+      "description": "Free online web courses that provide a variety of facilities and can help you hone your Korean language skills.",
       "imgUrl": "../assets/project/18.jpg",
       "projectLink": "https://hangeulin.vercel.app/",
       "alt": "Hangeulin"
